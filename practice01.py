@@ -16,3 +16,16 @@ import keyword
 print("The set of keywords in this version is: ")
 print(keyword.kwlist)
 
+# Boolean input
+# To simulate a boolean input, we can check if the response is "yes" or "no"
+likes_python = input("Do you like Python? (yes/no): ").strip().lower() == "yes"
+print("Likes Python:", likes_python)
+
+response = input("Do you like Python? (yes/no): ").strip().lower()
+if response == "yes":
+    likes_python = True
+elif response == "no":
+    likes_python = False
+else:
+    print("Invalid input. Please enter 'yes' or 'no'.")
+    likes_python = None  # Or handle as you wish
