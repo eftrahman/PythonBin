@@ -30,6 +30,8 @@ else:
     print("Invalid input. Please enter 'yes' or 'no'.")
     likes_python = None  # Or handle as you wish
 
+#None is a Python keyword that means "nothing." None is known as nil, null, or undefined in different computer languages.
+#If a function does not have a return clause, it will give None as the default output:
 print(None==0)
 print(None==9)
 print(None=="")
@@ -37,4 +39,10 @@ print(None==False)
 print(None==True)
 a=None
 b=None
-print(a==b) 
+print(a==b)
+
+#if a function has no return, calling it will provide None value
+def noReturnFunc():
+    print(55+44)
+sum=noReturnFunc()
+print(sum)
