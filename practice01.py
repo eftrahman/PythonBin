@@ -29,3 +29,12 @@ elif response == "no":
 else:
     print("Invalid input. Please enter 'yes' or 'no'.")
     likes_python = None  # Or handle as you wish
+
+print(None==0)
+print(None==9)
+print(None=="")
+print(None==False)
+print(None==True)
+a=None
+b=None
+print(a==b) 
